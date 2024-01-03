@@ -17,9 +17,13 @@ We will provide you with a `figma` file below where you can find the necessary d
 3. The UI is simple. Animations are a plus.
 4. Commits and MRs are clear.
 
+//https://api.themoviedb.org/3/discover/movie?language=en-US&api_key=db456e2314b333719aaf25c1c9eb11fc
+//https://api.themoviedb.org/3/discover/movie?page=1&language=en-US&api_key=db456e2314b333719aaf25c1c9eb11fc
+
 ## Instructions
 
-  1. `Create` a repository on your git provider and push the cloned repo as it is. **DO NOT MAKE ANY CHANGES TO THE REPO YET**
+  1. `Create` a repository on your git provider and push the cloned repo as it is. 
+2. **DO NOT MAKE ANY CHANGES TO THE REPO YET**
   2. After each of the tasks below, you will create a Merge Request with description on what you did and the reasoning for the decisions you took.
   3. In the end we expect to have 2 MRs on the repository, make sure that MR #2 targets MR #1, so that the diff is clean.
   4. If you have any question, send us a message.

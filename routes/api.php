@@ -18,4 +18,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('movie', [\App\Http\Controllers\API\DataController::class,'fetchAllData']);
+Route::get('movies', [\App\Http\Controllers\API\DataController::class,'fetchAllDataMovies']);
+Route::get('tv', [\App\Http\Controllers\API\DataController::class,'fetchAllDataTv']);
+Route::get('firebase',[\App\Http\Controllers\API\FirebaseController::class,'index']);

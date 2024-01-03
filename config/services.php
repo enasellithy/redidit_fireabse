@@ -31,4 +31,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'movie' => [
+        'themoviedbImagePath' => 'https://image.tmdb.org/t/p/original/',
+        'themoviedbDiscovery' => "https://api.themoviedb.org/3/discover/movie?api_key=db456e2314b333719aaf25c1c9eb11fc",
+        'theTvbDiscovery' => "https://api.themoviedb.org/3/discover/tv?api_key=db456e2314b333719aaf25c1c9eb11fc",
+        'themoviedbLang' =>  "https://api.themoviedb.org/3/configuration/languages?api_key=db456e2314b333719aaf25c1c9eb11fc",
+        'timeZoneUrl' => "https://api.themoviedb.org/3/configuration/timezones?api_key=db456e2314b333719aaf25c1c9eb11fc",
+        'countryListUrl' => "https://api.themoviedb.org/3/configuration/countries?api_key=db456e2314b333719aaf25c1c9eb11fc",
+
+    ],
+
 ];

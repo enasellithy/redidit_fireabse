@@ -32,3 +32,5 @@ Is Fetch Movie Data
 ## API
 - Fetch Data for all movies http://localhost:8000/api/movies?page={page}
 - Fetch Data for all movies http://localhost:8000/api/tv?page={page}
+
+- Fetch Api 

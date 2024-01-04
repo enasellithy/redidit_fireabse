@@ -23,10 +23,11 @@ Is Fetch Movie Data
 - composer install
 - cp .env.example .env
 - php artisan key:generate
-- php artisan serv
+- php artisan serv --port=8000
 
 ## API
 - this api service provider https://api.themoviedb.org
+- every page get 20 items in array 
 
 ## API
 - Fetch Data for all movies http://localhost:8000/api/movies?page={page}

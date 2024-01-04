@@ -6,11 +6,7 @@ trait JsonTrait
 {
     public function whenDone($data,$message = null)
     {
-        return response()->json([
-            'status' => true,
-            'message' => $message == null ? 'Success' : $message,
-            'data' => $data,
-        ],200);
+        return response()->json($data);
     }
 
     public function whenError($data)
